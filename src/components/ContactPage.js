@@ -12,7 +12,8 @@ class ContactPage extends React.Component {
       <div> 
         <Comp title={this.props.title} subtitle={this.props.subtitle} text={this.props.text}/> 
         <Content> 
-  
+          <h5> </h5>
+          <h5> </h5>
         </Content>
       </div>
     );

@@ -38,7 +38,7 @@ class Circular extends React.Component {
           title: "Ridshare Rails",
           subtitle: "A rideshare app (like uber)",
           imgsrc: rideshare,
-          link: "",
+          link: "https://rideshare-app-2020.herokuapp.com/",
           selected: true,
           },
         ]
