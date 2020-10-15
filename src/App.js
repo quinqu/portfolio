@@ -35,7 +35,7 @@ class App extends React.Component {
       projects: {
         title: "Check out my projects",
         subtitle: "Ruby, Golang, Javascript, and More",
-        text: ""
+        text: "Select a project to view"
       },
       music: {
         title: "My Music",
@@ -62,7 +62,7 @@ class App extends React.Component {
             <Navbar.Brand> Jane Quintero </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-toggle" className="border-0"/> 
             <Navbar.Collapse id="navbar-toggle"> 
-            <Nav className="ml-auto"> 
+            <Nav className="ml-auto navig-link" > 
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>

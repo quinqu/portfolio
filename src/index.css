@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.card-style {
+  margin: 20px;
+}
+
+.card-style-image{
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.card-style-info {
+  margin-top: 10px;
+  min-height: 100px;
+
+}
+
+.card-style-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.card-style-subtitle{
+  font-size: 16px;
+  margin: 0px;
+}
+
+.navig-link > *{
+  color: black !important;
+}
+
+.abt-title {
+  color: #ad0000 !important;
+}

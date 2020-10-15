@@ -3,7 +3,7 @@ import Comp from './Comp';
 
 function AboutPage(props) {
   return (
-    <Comp title={props.title} subtitle={props.subtitle} text={props.text}/> 
+    <Comp className="abt-title" title={props.title} subtitle={props.subtitle} text={props.text}/> 
   );
 }
 
