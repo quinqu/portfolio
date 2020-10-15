@@ -31,12 +31,12 @@ class App extends React.Component {
         text: ""
       },
       projects: {
-        title: "Check out my projects",
+        title: "Projects",
         subtitle: "Ruby, Golang, Javascript, and More",
-        text: "Select a project to view"
+        text: ""
       },
       music: {
-        title: "My Music",
+        title: "Music",
         subtitle: "Indie tunes, synths, guitars, keys, bedroom studio",
         text: ""
       },

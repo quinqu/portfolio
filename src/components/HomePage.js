@@ -33,7 +33,7 @@ class HomePage extends React.Component {
           <Row className="justify-content-center py-5"> 
             <Col md={8} sm={12}> 
                 <h1 className="display-3 font-weight-normal">{currentItem}</h1>
-                <h3 className="lead font-weight-light"> Welcome to my Portfolio </h3> 
+                <h3 className="display-5 font-weight-light"> Welcome to my Portfolio </h3> 
 
             </Col>
           </Row>
