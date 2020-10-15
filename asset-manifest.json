@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f2dc061.chunk.css",
-    "main.js": "/static/js/main.82e0348c.chunk.js",
-    "main.js.map": "/static/js/main.82e0348c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8ee00f4e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8ee00f4e.js.map",
-    "static/css/2.1afe660f.chunk.css": "/static/css/2.1afe660f.chunk.css",
-    "static/js/2.9863371e.chunk.js": "/static/js/2.9863371e.chunk.js",
-    "static/js/2.9863371e.chunk.js.map": "/static/js/2.9863371e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2000ad0a2ec1130db9a7f314d74d224e.js": "/precache-manifest.2000ad0a2ec1130db9a7f314d74d224e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.1afe660f.chunk.css.map": "/static/css/2.1afe660f.chunk.css.map",
-    "static/css/main.8f2dc061.chunk.css.map": "/static/css/main.8f2dc061.chunk.css.map",
-    "static/js/2.9863371e.chunk.js.LICENSE.txt": "/static/js/2.9863371e.chunk.js.LICENSE.txt",
-    "static/media/echo.jpg": "/static/media/echo.1e153451.jpg"
+    "main.css": "/quinqu.github.io/static/css/main.8f2dc061.chunk.css",
+    "main.js": "/quinqu.github.io/static/js/main.fba1cc78.chunk.js",
+    "main.js.map": "/quinqu.github.io/static/js/main.fba1cc78.chunk.js.map",
+    "runtime-main.js": "/quinqu.github.io/static/js/runtime-main.416b9ed8.js",
+    "runtime-main.js.map": "/quinqu.github.io/static/js/runtime-main.416b9ed8.js.map",
+    "static/css/2.1afe660f.chunk.css": "/quinqu.github.io/static/css/2.1afe660f.chunk.css",
+    "static/js/2.9863371e.chunk.js": "/quinqu.github.io/static/js/2.9863371e.chunk.js",
+    "static/js/2.9863371e.chunk.js.map": "/quinqu.github.io/static/js/2.9863371e.chunk.js.map",
+    "index.html": "/quinqu.github.io/index.html",
+    "precache-manifest.6ede5115988c9780938626659384d57b.js": "/quinqu.github.io/precache-manifest.6ede5115988c9780938626659384d57b.js",
+    "service-worker.js": "/quinqu.github.io/service-worker.js",
+    "static/css/2.1afe660f.chunk.css.map": "/quinqu.github.io/static/css/2.1afe660f.chunk.css.map",
+    "static/css/main.8f2dc061.chunk.css.map": "/quinqu.github.io/static/css/main.8f2dc061.chunk.css.map",
+    "static/js/2.9863371e.chunk.js.LICENSE.txt": "/quinqu.github.io/static/js/2.9863371e.chunk.js.LICENSE.txt",
+    "static/media/echo.jpg": "/quinqu.github.io/static/media/echo.1e153451.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ee00f4e.js",
+    "static/js/runtime-main.416b9ed8.js",
     "static/css/2.1afe660f.chunk.css",
     "static/js/2.9863371e.chunk.js",
     "static/css/main.8f2dc061.chunk.css",
-    "static/js/main.82e0348c.chunk.js"
+    "static/js/main.fba1cc78.chunk.js"
   ]
 }
