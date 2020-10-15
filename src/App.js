@@ -52,8 +52,8 @@ class App extends React.Component {
     return (
       <Router> 
         <Container className="p-0" fluid={true}> 
-          <Navbar className="border-bottom" bg="transparent" expand="lg"> 
-            <Navbar.Brand> Jane Quintero </Navbar.Brand>
+          <Navbar className="border-bottom header-color" bg="#E9967A" expand="lg"> 
+            <Navbar.Brand className="display-3"> Jane Quintero </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-toggle" className="border-0"/> 
             <Navbar.Collapse id="navbar-toggle"> 
             <Nav className="ml-auto navig-link" > 
@@ -63,7 +63,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/contact">Contact</Link>
             </Nav>
             </Navbar.Collapse>
-
+ 
           </Navbar>
             <Route exact path="/" render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>} /> 
             <Route  path="/contact" render={() => <ContactPage title={this.state.contact.title} subtitle={this.state.contact.subtitle} text={this.state.contact.text}/>} /> 

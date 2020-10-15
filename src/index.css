@@ -48,12 +48,29 @@ code {
   color: #ad0000 !important;
 }
 
-.success-msg {
-  color: #57a775;
-  padding: 10px 15px;
+.header-color {
+  background-color: #C6A8A8;
 }
 
-.success-err {
-  color: #ff2643;
-  padding: 10px 15px;
+
+.sc-widget {
+  margin: 0px 30px 20px 30px;
+}
+.soundcloud-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0;
+}
+.soundcloud{
+  display: grid;
+  grid-template-rows: 20px 1fr 40px;
+  grid-gap: 40px;
+  padding:0;
+}
+
+.music-description {
+  padding: 40px 60px 30px 5px;
+  display: grid;
+  grid-template-rows: 60px 150px 150px;
+  justify-content: space-between;
 }
