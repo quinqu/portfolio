@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5227f1a6e8665fac4d3a6f19daa96db0",
+    "revision": "01c389b2e1690ead4adc2f2e973e505b",
     "url": "/quinqu.github.io/index.html"
   },
   {
