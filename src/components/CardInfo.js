@@ -10,7 +10,8 @@ function CardInfo(props) {
     <animated.div className="card-style-info" style={style}> 
       <p className="card-style-title"> {props.title}</p>
       <p>{props.subtitle}</p>
-      <a href={props.link} style={{color: "black", textDecoration: "underline"}}> <p> View Project </p></a>
+      
+      <a class="btn btn-secondary" href={props.link} style={{color: "white"}}>View Project</a>
     </animated.div> 
     
   );

@@ -57,7 +57,7 @@ code {
 }
 
 .header-color {
-  background-color: #C6A8A8;
+  background-color: #CC9999;
 }
 
 
@@ -85,4 +85,32 @@ code {
 
 .about {
   padding: 30px 100px 50px 100px;
+}
+
+.btn-secondary{
+  background-color: #cc5500 !important;
+  border-color:  #cc5500 !important;
+}
+
+.spot {
+  background-color: green !important;
+  border-color:  green !important;
+
+}
+
+.git {
+  background-color: black !important;
+  border-color:  black !important;
+}
+
+.contact-buttons{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.contact-buttons > * {
+  height: 40px;
+  padding: 0px;
 }
