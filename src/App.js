@@ -7,7 +7,6 @@ import Nav from 'react-bootstrap/Nav';
 import Footer from './components/Footer'
 import HomePage from './components/HomePage'
 import MusicPage from './components/MusicPage'
-import AboutPage from './components/AboutPage'
 import ContactPage from './components/ContactPage'
 import ProjectsPage from './components/ProjectsPage'
 
@@ -23,7 +22,6 @@ class App extends React.Component {
           {title: "projects", path: "/projects"}, 
           {title: "music", path: "/music"}, 
           {title: "contact", path: "/contact"}, 
-          {title: "about", path: "/about"}, 
           {title: "home", path: "/"}, 
       ],
 
@@ -47,11 +45,7 @@ class App extends React.Component {
         subtitle: "",
         text: ""
       },
-      about: {
-        title: "Wow",
-        subtitle: "I had a wild ride this year",
-        text: ""
-      }
+
     }
   }
   render() {
@@ -65,15 +59,13 @@ class App extends React.Component {
             <Nav className="ml-auto navig-link" > 
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
                 <Link className="nav-link" to="/music">Music</Link>
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
             </Nav>
             </Navbar.Collapse>
 
           </Navbar>
             <Route exact path="/" render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>} /> 
-            <Route  path="/about" render={() => <AboutPage title={this.state.about.title} subtitle={this.state.about.subtitle} text={this.state.about.text}/>} /> 
             <Route  path="/contact" render={() => <ContactPage title={this.state.contact.title} subtitle={this.state.contact.subtitle} text={this.state.contact.text}/>} /> 
             <Route  path="/projects" render={() => <ProjectsPage title={this.state.projects.title} subtitle={this.state.projects.subtitle} text={this.state.projects.text}/>} /> 
             <Route  path="/music" render={() => <MusicPage title={this.state.music.title} subtitle={this.state.music.subtitle} text={this.state.music.text}/>} /> 
