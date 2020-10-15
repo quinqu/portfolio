@@ -20,7 +20,7 @@ class Circular extends React.Component {
           title: "Tempo",
           subtitle:"A playlist curator based on your pace",
           imgsrc: tempo,
-          link: "",
+          link: "https://github.com/quinqu/tempo",
           selected: true,
 
         },
@@ -29,7 +29,7 @@ class Circular extends React.Component {
           title: "Echo Server",
           subtitle: "A concurrent echo server with client",
           imgsrc: echo,
-          link: "",
+          link: "https://github.com/quinqu/echo-server",
           selected: true,
 
         },

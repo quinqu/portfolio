@@ -47,3 +47,13 @@ code {
 .abt-title {
   color: #ad0000 !important;
 }
+
+.success-msg {
+  color: #57a775;
+  padding: 10px 15px;
+}
+
+.success-err {
+  color: #ff2643;
+  padding: 10px 15px;
+}

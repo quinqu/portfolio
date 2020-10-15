@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 import HomePage from './components/HomePage'
 import MusicPage from './components/MusicPage'
 import AboutPage from './components/AboutPage'
-import ContactPage from './components/AboutPage'
+import ContactPage from './components/ContactPage'
 import ProjectsPage from './components/ProjectsPage'
 
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
