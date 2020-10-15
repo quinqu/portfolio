@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "940567c1d8a59aa297dcff0d90bdb24b",
+    "revision": "2ceb4944945b0a66ee8de0012181219e",
     "url": "/quinqu.github.io/index.html"
   },
   {
-    "revision": "593b58becdf45208d2b4",
+    "revision": "5b81a309c42ad95ebc79",
     "url": "/quinqu.github.io/static/css/2.1afe660f.chunk.css"
   },
   {
-    "revision": "d0e907234c713d2c69c7",
-    "url": "/quinqu.github.io/static/css/main.8f2dc061.chunk.css"
+    "revision": "14c2d6be68458f843540",
+    "url": "/quinqu.github.io/static/css/main.fcb2ce64.chunk.css"
   },
   {
-    "revision": "593b58becdf45208d2b4",
-    "url": "/quinqu.github.io/static/js/2.9863371e.chunk.js"
+    "revision": "5b81a309c42ad95ebc79",
+    "url": "/quinqu.github.io/static/js/2.b3aa7518.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/quinqu.github.io/static/js/2.9863371e.chunk.js.LICENSE.txt"
+    "url": "/quinqu.github.io/static/js/2.b3aa7518.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0e907234c713d2c69c7",
-    "url": "/quinqu.github.io/static/js/main.fba1cc78.chunk.js"
+    "revision": "14c2d6be68458f843540",
+    "url": "/quinqu.github.io/static/js/main.c997423e.chunk.js"
   },
   {
     "revision": "cf9315b5ecd6e5f8334c",
