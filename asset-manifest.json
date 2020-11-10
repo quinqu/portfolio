@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/quinqu.github.io/static/css/main.2f58f6fa.chunk.css",
-    "main.js": "/quinqu.github.io/static/js/main.12fbd034.chunk.js",
-    "main.js.map": "/quinqu.github.io/static/js/main.12fbd034.chunk.js.map",
+    "main.css": "/quinqu.github.io/static/css/main.e2ed9014.chunk.css",
+    "main.js": "/quinqu.github.io/static/js/main.6358d0fd.chunk.js",
+    "main.js.map": "/quinqu.github.io/static/js/main.6358d0fd.chunk.js.map",
     "runtime-main.js": "/quinqu.github.io/static/js/runtime-main.416b9ed8.js",
     "runtime-main.js.map": "/quinqu.github.io/static/js/runtime-main.416b9ed8.js.map",
     "static/css/2.1afe660f.chunk.css": "/quinqu.github.io/static/css/2.1afe660f.chunk.css",
-    "static/js/2.b3aa7518.chunk.js": "/quinqu.github.io/static/js/2.b3aa7518.chunk.js",
-    "static/js/2.b3aa7518.chunk.js.map": "/quinqu.github.io/static/js/2.b3aa7518.chunk.js.map",
+    "static/js/2.61414a07.chunk.js": "/quinqu.github.io/static/js/2.61414a07.chunk.js",
+    "static/js/2.61414a07.chunk.js.map": "/quinqu.github.io/static/js/2.61414a07.chunk.js.map",
     "index.html": "/quinqu.github.io/index.html",
-    "precache-manifest.ee64591ba41a06126067655b6567d1c9.js": "/quinqu.github.io/precache-manifest.ee64591ba41a06126067655b6567d1c9.js",
+    "precache-manifest.1e9680db3a2ed0c6dc3b83ddeca66317.js": "/quinqu.github.io/precache-manifest.1e9680db3a2ed0c6dc3b83ddeca66317.js",
     "service-worker.js": "/quinqu.github.io/service-worker.js",
     "static/css/2.1afe660f.chunk.css.map": "/quinqu.github.io/static/css/2.1afe660f.chunk.css.map",
-    "static/css/main.2f58f6fa.chunk.css.map": "/quinqu.github.io/static/css/main.2f58f6fa.chunk.css.map",
-    "static/js/2.b3aa7518.chunk.js.LICENSE.txt": "/quinqu.github.io/static/js/2.b3aa7518.chunk.js.LICENSE.txt",
+    "static/css/main.e2ed9014.chunk.css.map": "/quinqu.github.io/static/css/main.e2ed9014.chunk.css.map",
+    "static/js/2.61414a07.chunk.js.LICENSE.txt": "/quinqu.github.io/static/js/2.61414a07.chunk.js.LICENSE.txt",
     "static/media/echo.jpg": "/quinqu.github.io/static/media/echo.1e153451.jpg",
     "static/media/index.css": "/quinqu.github.io/static/media/subtle.15a0ac11.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.416b9ed8.js",
     "static/css/2.1afe660f.chunk.css",
-    "static/js/2.b3aa7518.chunk.js",
-    "static/css/main.2f58f6fa.chunk.css",
-    "static/js/main.12fbd034.chunk.js"
+    "static/js/2.61414a07.chunk.js",
+    "static/css/main.e2ed9014.chunk.css",
+    "static/js/main.6358d0fd.chunk.js"
   ]
 }
