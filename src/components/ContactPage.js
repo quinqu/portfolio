@@ -10,23 +10,26 @@ class ContactPage extends React.Component {
   render () {
     return (
       <div> 
-        <Comp title={this.props.title} subtitle={this.props.subtitle} text={this.props.text}/> 
+       
+
+        <Comp className="contact-header" title={this.props.title} subtitle={this.props.subtitle} text={this.props.text}/> 
+
         <Content > 
-  
+        <div className="contact-title">
+        <img className="contact-img" src={"https://i.pinimg.com/originals/ef/a9/53/efa9539f444c95598e8fc1202d8397f4.jpg"} alt="avatar"/>
         <div className="contact-buttons">
-          <h3 className="display-5 font-weight-light"> Connect on LinkedIn</h3>
+          
           <a className="btn btn-primary" href="https://linkedin.com/in/quinq">LinkedIn</a>
 
-          <h3 className="display-5 font-weight-light"> Follow me on Github </h3>
           <a className="btn btn-secondary git" href="https://github.com/quinqu">Github</a>
 
-          <h3 className="display-5 font-weight-light"> Follow me on Spotify</h3>
           <a className="btn btn-secondary spot" href="https://open.spotify.com/user/quinruby">Spotify</a>
 
-          <h3 className="display-5 font-weight-light"> Email me for everything else </h3>
           <a className="btn btn-secondary" href="mailto:quinruby0@gmail.com"> Email </a>
 
           </div>
+          </div>
+
         </Content>
       </div>
     );

@@ -11,17 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.intro {
+  border-color: #d3d3d3 !important;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  background-image: url("./assets/subtle.jpg");
+  background-repeat: repeat;
+}
 
 
 .card-style {
   margin: 20px;
+  width: 210px;
 }
 
 .card-style-image{
   border-radius: 10px;
   width: 200px;
-  height: 270px;
+  height: 250px;
   box-shadow: 0px 0px 3px 1px #ccc;
+  margin-bottom: 20px;
 }
 
 .card-style-image-hp {
@@ -58,6 +67,7 @@ code {
 
 .header-color {
   background-color: #CC9999;
+  border-color: #343a40;
 }
 
 
@@ -84,7 +94,10 @@ code {
 }
 
 .about {
-  padding: 30px 100px 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  padding: 45px 100px 100px 100px;
 }
 
 .btn-secondary{
@@ -106,11 +119,24 @@ code {
 .contact-buttons{
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+
 .contact-buttons > * {
-  height: 40px;
-  padding: 0px;
+  height: 39px;
+  width: 350px;
+}
+
+.contact-title {
+  padding: 20px 30px 95px 130px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+footer {
+  background-image: url("./assets/subtle.jpg");
+  background-repeat: repeat;
+}
+.contact-header {
+  padding-bottom: 0px !important;
 }

@@ -119,13 +119,12 @@ function MusicPage(props) {
     </Row>
     <div className="justify-content-center music-description" md={8} sm={12}> 
       <h3> Background </h3>
-      <p> I started playing a few instruments such as tuba, guitar, and piano at a young age. It wasn't until Decemeber 2019 that I 
+      <p> I started playing a few instruments such as tuba, guitar, and piano at a young age. It wasn't until December 2019 that I 
         decided to start recording my own songs. At this point, I had been making songs for years, but was too afraid to share with the world. I realized that 
         the worst that could happen is that people don't like it and that's ok because music creation should be for ~you~. 
       </p>
       <p> 
         These days I have been making music here and there in my makeshift bedroom studio using Logic, the Scarlett 2i2 interface, a small midi keyboard, and a telecaster. 
-        For any new musicians out there, that's all you really need with all the great technology available out there for music production.  
       </p>
     </div>
     </div>

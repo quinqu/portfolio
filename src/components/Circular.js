@@ -18,7 +18,7 @@ class Circular extends React.Component {
         {
           id: 0,
           title: "Tempo",
-          subtitle:"A playlist curator based on your pace",
+          subtitle:"A playlist curator based on your running or walking speed. Build with Swift, UIKit, & Ruby on Rails.",
           imgsrc: tempo,
           link: "https://github.com/quinqu/tempo",
           selected: true,
@@ -27,7 +27,7 @@ class Circular extends React.Component {
         {
           id: 1,
           title: "Echo Server",
-          subtitle: "A concurrent echo server with client",
+          subtitle: "A pure Go concurrent echo server with client. Encryption using TLS to secure traffic through the network, with authentication implemented.",
           imgsrc: echo,
           link: "https://github.com/quinqu/echo-server",
           selected: true,
@@ -35,8 +35,8 @@ class Circular extends React.Component {
         },
         {
           id: 2,
-          title: "Ridshare Rails",
-          subtitle: "A rideshare app (fake uber)",
+          title: "Rideshare Rails",
+          subtitle: "A rideshare app (fake uber). Crafted effective RESTful routing, practiced Agile methodology, used Ruby on Rails.",
           imgsrc: rideshare,
           link: "https://rideshare-app-2020.herokuapp.com/",
           selected: true,
