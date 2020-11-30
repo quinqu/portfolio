@@ -104,7 +104,7 @@ function MusicPage(props) {
       <div className="soundcloud-section">
       <Row className="sc-widget">
       <Col className="justify-content-center py-5 soundcloud">
-        <h3>Most recent releases</h3>
+        <h3>Latest Tracks</h3>
         <iframe ref={iframeRef} id="sound-cloud-player" style={{border: 'none', height: 314, width: 400}} scrolling="no" allow="autoplay" 
           src={ "https://w.soundcloud.com/player/?url=https://soundcloud.com/quinq" }>
         </iframe>
