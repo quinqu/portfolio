@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quinqu.github.io/static/css/main.e2ed9014.chunk.css",
-    "main.js": "/quinqu.github.io/static/js/main.6358d0fd.chunk.js",
-    "main.js.map": "/quinqu.github.io/static/js/main.6358d0fd.chunk.js.map",
+    "main.js": "/quinqu.github.io/static/js/main.89e16750.chunk.js",
+    "main.js.map": "/quinqu.github.io/static/js/main.89e16750.chunk.js.map",
     "runtime-main.js": "/quinqu.github.io/static/js/runtime-main.416b9ed8.js",
     "runtime-main.js.map": "/quinqu.github.io/static/js/runtime-main.416b9ed8.js.map",
     "static/css/2.1afe660f.chunk.css": "/quinqu.github.io/static/css/2.1afe660f.chunk.css",
     "static/js/2.61414a07.chunk.js": "/quinqu.github.io/static/js/2.61414a07.chunk.js",
     "static/js/2.61414a07.chunk.js.map": "/quinqu.github.io/static/js/2.61414a07.chunk.js.map",
     "index.html": "/quinqu.github.io/index.html",
-    "precache-manifest.1e9680db3a2ed0c6dc3b83ddeca66317.js": "/quinqu.github.io/precache-manifest.1e9680db3a2ed0c6dc3b83ddeca66317.js",
+    "precache-manifest.c30ad549284271fa16e9c0d94226a01f.js": "/quinqu.github.io/precache-manifest.c30ad549284271fa16e9c0d94226a01f.js",
     "service-worker.js": "/quinqu.github.io/service-worker.js",
     "static/css/2.1afe660f.chunk.css.map": "/quinqu.github.io/static/css/2.1afe660f.chunk.css.map",
     "static/css/main.e2ed9014.chunk.css.map": "/quinqu.github.io/static/css/main.e2ed9014.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.1afe660f.chunk.css",
     "static/js/2.61414a07.chunk.js",
     "static/css/main.e2ed9014.chunk.css",
-    "static/js/main.6358d0fd.chunk.js"
+    "static/js/main.89e16750.chunk.js"
   ]
 }
