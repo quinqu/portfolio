@@ -25,14 +25,10 @@ function MusicPage(props) {
   useEffect(() => {
     loadscript('https://w.soundcloud.com/player/api.js', () => {
       
-      // initialize player and store reference in state
-
       const player = window.SC.Widget(iframeRef.current)
       setPlayer( player )
     
       const { PLAY, PLAY_PROGRESS, PAUSE, FINISH, ERROR } = window.SC.Widget.Events
-
-      // NOTE: closures created - cannot access react state or props from within and SC callback functions!!
 
       player.bind( PLAY, () => {
         // update state to playing
@@ -46,7 +42,6 @@ function MusicPage(props) {
       })
 
       player.bind( PAUSE, () => {
-        // update state if player has paused - must double check isPaused since false positives
         player.isPaused( (playerIsPaused) => {
           if (playerIsPaused) setIsPlaying(false)
         })
@@ -85,8 +80,6 @@ function MusicPage(props) {
   }
 
   const changePlaylistIndex = (skipForward = true) => {
-
-    // get list of songs from SC widget
     player.getSounds( (playerSongList) => {      
 
       let nextIndex = (skipForward) ? playlistIndex + 1 : playlistIndex - 1
@@ -103,9 +96,9 @@ function MusicPage(props) {
       <Comp title={props.title} subtitle={props.subtitle} text={props.text}/> 
       <div className="soundcloud-section">
       <Row className="sc-widget">
-      <Col className="justify-content-center py-5 soundcloud">
+      <Col className="justify-content-center py-4 soundcloud">
         <h3>Latest Tracks</h3>
-        <iframe ref={iframeRef} id="sound-cloud-player" style={{border: 'none', height: 314, width: 400}} scrolling="no" allow="autoplay" 
+        <iframe ref={iframeRef} id="sound-cloud-player" style={{border: 'none', height: 450, width: 400}} scrolling="no" allow="autoplay" 
           src={ "https://w.soundcloud.com/player/?url=https://soundcloud.com/quinq" }>
         </iframe>
     
