@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "882470cc415eb9d926345d80f7fc95b9",
+    "revision": "1998f6cf69a230f2234ce505584303f9",
     "url": "/quinqu.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quinqu.github.io/static/css/2.1afe660f.chunk.css"
   },
   {
-    "revision": "19cec54139ebcc917431",
-    "url": "/quinqu.github.io/static/css/main.e2ed9014.chunk.css"
+    "revision": "18256854d747b85e1e98",
+    "url": "/quinqu.github.io/static/css/main.06e8080f.chunk.css"
   },
   {
     "revision": "e48251e6e5d9bf49bb44",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quinqu.github.io/static/js/2.61414a07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19cec54139ebcc917431",
-    "url": "/quinqu.github.io/static/js/main.63086283.chunk.js"
+    "revision": "18256854d747b85e1e98",
+    "url": "/quinqu.github.io/static/js/main.68341209.chunk.js"
   },
   {
     "revision": "cf9315b5ecd6e5f8334c",
