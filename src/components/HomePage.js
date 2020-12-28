@@ -7,7 +7,7 @@ import Content from './Content';
 import Comp from './Comp';
 
 
-const items = ["I am an Engineer/", "I am a Musician/", "I am a Creator/"];
+const items = ["Engineer/", "Musician/", "Creator/", "Artist/"];
 
 class HomePage extends React.Component {
   constructor() {
@@ -30,39 +30,48 @@ class HomePage extends React.Component {
     let currentItem = items[this.state.textIdx % items.length];
     return (
       <div>
+      <div className="header">
       <JumboTron className="bg-transparent jumbotron-fluid p-0 mb-0">  
         <Container fluid={true}> 
-          <Row className="justify-content-center py-5" > 
+          <Row className="py-5" > 
             <Col md={8} sm={12}> 
+              <div className="header-title">
                 <h1 className="display-3 font-weight-normal">{currentItem}</h1>
-                <h3 className="display-5 font-weight-light"> Jane Quintero • Software Engineer</h3> 
-
+                <h3 className="display-5 font-weight-light"> Hello, I am Jane </h3> 
+              </div>
             </Col>
           </Row>
         </Container>
       </JumboTron>
-      <img className="card-style-image-hp" src={"https://i.pinimg.com/originals/b9/43/19/b9431965fe5939c13ab3d0ba16cdd9c1.jpg"} alt="avatar"/>
+      </div>
 
+      <h5 className="intro-home"> Just another techie musician. Please take a look at my projects, music, and experience. </h5>
+      
         <div className="about">
           <div>
-            <p className="justify-content-center"> Hi, my name is Jane. I am an entry level 
-            engineer with a passion for learning and building software. I am a musician who lives and 
-            breathes music. </p> 
-            
-
-            <p> I currently reside in Seattle, but will eventually follow my heart and experience different places. </p>
+           <h5 className="about-titles"> <b>Software Engineer</b> </h5>
+           <i className="about-titles">Teleport</i>
           </div>
-       
 
-          <div> 
-            <p> I am currently interning 
-              at Gravitational as a Systems Software Engineer and I’m a full-stack 
-              development student at Ada Developers Academy, a highly immersive and 
-              competitive software engineering school in Seattle. 
-            </p>
+          <p> 
+          <i>Helping enabling engineers to quickly access any computing resource anywhere. Designed and developed features for our internal benchmarking tool to better 
+          analyze our systems performance and improve accuracy. Tools used in my everyday job include, Golang, AWS, and Terraform. 
+          </i></p>
+          <p> <i>A highly competitive and immersive software engineering school for underrepresented develeopers. 
+          At Ada Developers Academy I was taught full-stack web development covering HTML/CSS, JavaScript, Ruby on Rails, 
+          and Computer Science fundamentals. Along with TDD, paired programming, and agile development practices. 
+          </i></p>
+
+          <div>
+          <h5 className="about-titles"> <b>Full Stack Engineering</b></h5>
+          <i className="about-titles" >Ada Developers Academy </i>
           </div>
+
         </div>
-
+      <div> 
+       
+        <p> </p>
+      </div>
 
         <Content > 
         <div className="contact-title">
@@ -74,7 +83,6 @@ class HomePage extends React.Component {
         <div className="contact-buttons">
           <a className="btn btn-primary" href="https://linkedin.com/in/quinq">LinkedIn</a>
           <a className="btn btn-secondary git" href="https://github.com/quinqu">Github</a>
-          <a className="btn btn-secondary spot" href="https://open.spotify.com/user/quinruby">Spotify</a>
           <a className="btn btn-secondary" href="mailto:quinruby0@gmail.com"> Email </a>
           </div>
         </div>

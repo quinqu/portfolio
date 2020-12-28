@@ -8,9 +8,6 @@ import Col from 'react-bootstrap/Col';
 
 function MusicPage(props) {
 
-  // SoundCloud widget API
-  //  https://developers.soundcloud.com/docs/api/html5-widget
-  // state
 
   // used to communicate between SC widget and React
   const [isPlaying, setIsPlaying] = useState(false)

@@ -52,7 +52,7 @@ class App extends React.Component {
       <Router> 
         <Container className="p-0" fluid={true}> 
           <Navbar className="header-color" bg="#E9967A" expand="lg"> 
-            <Navbar.Brand className="display-3"> Jane Quintero Portfolio</Navbar.Brand>
+            <Navbar.Brand className="display-3"> Jane Quintero </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-toggle" className="border-0"/> 
             <Navbar.Collapse id="navbar-toggle"> 
             <Nav className="ml-auto navig-link" > 
