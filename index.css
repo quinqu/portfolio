@@ -1,0 +1,74 @@
+* {
+    background-color: #404040;
+    color: white;
+    font-weight: 300;
+}
+
+h1, h3 {
+    font-weight: 300 !important;
+}
+
+.list-group {
+    background-color: #404040;
+}
+
+.list-group-flush {
+    background-color: #404040;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.ada {
+    color: pink !important;
+}
+
+.teleport {
+    color: #9ca6d9 !important;
+}
+
+.technologies {
+    
+}
+
+.name {
+    font: medium;
+}
+
+.topper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5% 7% 5%;
+}
+.contact-nav {
+
+}
+.contact {
+    display: inline;
+    
+}
+
+.about {
+    font-size: large;
+    padding: 0% 25% 5% 0%;
+    border: none;
+}
+
+.para {
+    padding-left: 5%;
+}
+
+.content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0% 5% 0% 5%;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 80px 1fr ;
+    padding: 0% 5% 0% 5%;
+
+}
