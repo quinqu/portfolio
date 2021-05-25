@@ -1,5 +1,5 @@
 * {
-    background-color: #404040;
+    background-color: #404040 !important;
     color: white;
     font-weight: 300;
 }
@@ -65,10 +65,21 @@ a:link, a:visited {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0% 5% 0% 5%;
 }
+.proj {
+    font-weight: 500;
+}
+
+.projs {
+    width: 80%;
+}
 
 .projects {
     display: grid;
-    grid-template-rows: 80px 1fr ;
+
+}
+.projects {
+    display: grid;
+    grid-template-rows: 100px 1fr ;
     padding: 0% 5% 0% 5%;
 
 }

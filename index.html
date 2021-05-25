@@ -17,10 +17,10 @@
 
         <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="#">LinkedIn</a>
+              <a class="nav-link" href="https://linkedin.com/in/quinq">LinkedIn</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Github</a>
+              <a class="nav-link" href="https://github.com/quinqu">Github</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Mail</a>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="content">
-        <h3 class="text-center technologies"> Technologies I Use </h3>
+        <h3 class="technologies"> Technologies I Use </h3>
         <ul>
             <li> Go, Ruby, Javascript</li>
             <li> AWS, Docker, Git, Kubernetes</li>
@@ -48,18 +48,27 @@
 
     <div class="projects">
         <h3 class=""> Projects </h3>
-        <dl class="row">
-            <dt class="col-sm-3">Echo Server </dt>
-            <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
-          
-            <dt class="col-sm-3"> Tempo </dt>
+        <dl class="row projs">
+            <dt class="col-sm-3"> <a class="proj" href="#">Echo Server  </a></dt>
             <dd class="col-sm-9">
-              <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
+                The server echos the client's request in the
+                response, built in Golang, encryption using
+                TLS, authentication through generation of token
+                on server startup, tested concurrent server
+                for deadlocks and data races.</dd>
+          
+            <dt class="col-sm-3"> <a class="proj" href="#">Tempo  </a></dt>
+            <dd class="col-sm-9">
+              <p>Built with UI Kit frontend framework, Swift,
+                and Ruby backend, implemented a wrapper
+                for the Spotify API for more specific
+                requests. User enters their height and
+                speed, a playlist based on those metrics will
+                be created in the user's Spotify account.</p>
             </dd>
           
-            <dt class="col-sm-3">Soft Blush </dt>
-            <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+            <dt class="col-sm-3"> <a class="proj" href="#">Soft Blush  </a></dt>
+            <dd class="col-sm-9">An indie and dream pop music project I dabble in when I am not coding!</dd>
         </dl>
     </div>
 
